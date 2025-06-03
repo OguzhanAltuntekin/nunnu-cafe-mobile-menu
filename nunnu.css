@@ -10,6 +10,7 @@ h1{
     font-size: 60px ;
 }
 
+
 p {
     font-family: 'WDXL Lubrifont TC', sans-serif;
     color: #f8f8c8;
@@ -65,6 +66,7 @@ ul li {
     color: darkgoldenrod;
     font-family: 'Pacifico', cursive;
     font-size: 1.2em;
+    margin-left: 8px;
   }
 
   button { 
@@ -115,4 +117,9 @@ ul li {
   .workshopmenubody {
     background: linear-gradient(rgba(31,46,23,255),rgba(31,46,23,255),rgba(31, 107, 23, 255),rgba(31,46,23,255),rgba(31, 107, 23, 255),rgba(31,46,23,255),rgba(31, 107, 23, 255));
   }
-    
+  
+  .extra {
+    font-size: medium;
+  }
+
+  
