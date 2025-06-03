@@ -110,4 +110,8 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
   }
+
+  .workshopmenubody {
+    background: linear-gradient(rgba(31,46,23,255),rgba(31,46,23,255),rgba(31, 107, 23, 255),rgba(31,46,23,255),rgba(31, 107, 23, 255),rgba(31,46,23,255),rgba(31, 107, 23, 255));
+  }
     
