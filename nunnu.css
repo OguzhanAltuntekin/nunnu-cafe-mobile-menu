@@ -7,7 +7,7 @@ body {
 h1{
     color: #f8f8c8;
     font-family: "Alumni Sans SC", sans-serif;
-    size: 40px;
+    font-size: 60px ;
 }
 
 p {
@@ -70,7 +70,7 @@ ul li {
   button { 
     padding: 4px 15px;
     margin: 20px;
-    font-family:  'WDXL Lubrifont TC', sans-serif ;
+    font-family:'WDXL Lubrifont TC', sans-serif ;
     background-color: darkgoldenrod;
     color: #f8f8c8;
     border: none;
@@ -92,3 +92,22 @@ ul li {
     transition: all 0.2s ease; 
     border-radius: 10px;
   }
+
+  .workshopmenupics {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;}
+
+    .mainmenu {
+    width: 65%;
+    height: 65%;
+    margin-left: 76px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+    
