@@ -1,11 +1,13 @@
 body {
     background:linear-gradient(rgba(31,46,23,255),rgba(31,46,23,255),rgba(31,46,23,255),rgba(31, 107, 23, 255));
     background-repeat: no-repeat;
+    size: larger;
 }
 
 h1{
     color: #f8f8c8;
-    font-family: 'Exile', sans-serif;
+    font-family: "Alumni Sans SC", sans-serif;
+    size: 40px;
 }
 
 p {
@@ -13,6 +15,12 @@ p {
     color: #f8f8c8;
     font-size: x-large;
  }
+
+ .description {
+  font-family: "Kanit", sans-serif;
+}
+  
+  
 a {
     font-family: 'WDXL Lubrifont TC', sans-serif;
     color: #f8f8c8;
