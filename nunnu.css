@@ -29,7 +29,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: darkgoldenrod;
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease; 
 }
 
@@ -43,6 +43,7 @@ ul, ul li {
     font-family: 'WDXL Lubrifont TC', sans-serif ;
     font-size: 1.2em;
     text-decoration: none;
+    list-style: none;
 }
 
 ul li {
@@ -103,6 +104,16 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;}
 
+    .workshopmenupics-p {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+    
+
     .mainmenu {
     width: 65%;
     height: 65%;
@@ -122,4 +133,149 @@ ul li {
     font-size: medium;
   }
 
+  .drinksmenu {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(199, 77, 77);
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .workshopmenu {
+    background-color: rgb(100, 100, 226);
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
   
+  .drinksmenu:hover, .workshopmenu:hover {
+    transform: scale(1.05);
+    
+  }
+
+  .drinksmenu:active, .workshopmenu:active {
+    transform: scale(0.95);
+  }
+
+  .hots {
+    width: 50%;
+    background: linear-gradient(to bottom, #3b2f2f, #5b4033, #7a4e3a, #a56a4d);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .colds {
+    width: 50%;
+    background: linear-gradient(to bottom, #fffde1, #fdf6b2, #fce97b, #fbd74b, #ffd60a);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .hotcoffees {
+    width: 50%;
+    background: linear-gradient(to bottom, #3b2f2f, #5b4033, #8b5e3c, #cfa276, #f1e0c5);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+  }
+
+  .coldcoffees {
+    width: 50%;
+    background: linear-gradient(to bottom, #d8c3a5, #c0a98f, #a68c75, #86715d, #665544);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+  }
+
+  .teas {
+    width: 50%;
+    background: linear-gradient(to bottom, #702919, #8b3a25, #a54a2a, #c35d35, #e07a4b);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+  }
+
+  .matcha {
+    width: 50%;
+    background: linear-gradient( green, rgb(211, 211, 156));
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+  }
+
+  .cake {
+    width: 50%;
+    background: linear-gradient(to bottom, #fff0f5, #ffe4e1, #ffd8b1, #fff5cc);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+  }
+
+  .bowl {
+    width: 50%;
+    background: linear-gradient(to bottom, #fdf6ec, #f9e5d8, #f4d0c0, #e8a88f, #d67c6e);
+    padding: 10px;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+
+  }
