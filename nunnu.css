@@ -34,8 +34,8 @@ a:hover {
 }
 
 a:active{
-    color: darkgoldenrod;
-    transition: all 0.3s ease; 
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out; 
 }
 
 ul, ul li {
@@ -118,7 +118,7 @@ ul li {
     width: 65%;
     height: 65%;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -137,31 +137,52 @@ ul li {
     width: 50%;
     height: 50%;
     background-color: rgb(199, 77, 77);
-    display: block;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 15px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
   }
 
   .workshopmenu {
     background-color: rgb(100, 100, 226);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     padding: 15px;
     width: 50%;
     height: 50%;
-    display: block;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
   }
-  
-  .drinksmenu:hover, .workshopmenu:hover {
-    transform: scale(1.05);
+
+  @media (max-width: 768px) {
+    .drinksmenu, .workshopmenu {
+      width: 90%;
+      flex-direction: column;
+    }
+  }
+
+  .drinksmenu:hover , .workshopmenu:hover  {
+    transform: scale(1.1);
+  } 
+
+  .drinksmenu:active  {
+    transform: scale(1.1);
+    background-color:rgb(188, 38, 38);
     
+  }
+
+  .workshopmenu:active {
+    transform: scale(1.1);
+    background-color: rgb(70, 70, 222);
   }
 
   .drinksmenu:active, .workshopmenu:active {
