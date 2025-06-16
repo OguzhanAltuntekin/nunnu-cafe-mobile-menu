@@ -1,13 +1,13 @@
 body {
     background:linear-gradient(rgba(31,46,23,255),rgba(31,46,23,255),rgba(31, 107, 23, 255),rgba(31, 107, 23, 255));
     background-repeat: no-repeat;
-    size: larger;
 }
 
 h1{
     color: #f8f8c8;
     font-family: "Alumni Sans SC", sans-serif;
     font-size: 60px ;
+    text-align: center;
 }
 
 
@@ -27,6 +27,7 @@ a {
     color: #f8f8c8;
     font-size: xx-large;
     text-decoration: none;
+    text-align: center;
 }
 a:hover {
     color: rgb(255, 255, 255);
@@ -42,14 +43,19 @@ ul, ul li {
     color: #f8f8c8;
     font-family: 'WDXL Lubrifont TC', sans-serif ;
     font-size: 1.2em;
-    text-decoration: none;
-    list-style: none;
+}
+
+ul {
+  padding-left: 0;
 }
 
 ul li {
     color: #f8f8c8;
     cursor: pointer;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+    margin-left: 0;
+     
+     
   }
   
   ul li:hover {
@@ -72,7 +78,6 @@ ul li {
 
   button { 
     padding: 4px 15px;
-    margin: 20px;
     font-family:'WDXL Lubrifont TC', sans-serif ;
     background-color: darkgoldenrod;
     color: #f8f8c8;
@@ -134,55 +139,61 @@ ul li {
   }
 
   .drinksmenu {
-    width: 50%;
-    height: 50%;
     background-color: rgb(199, 77, 77);
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    height: 50%;
+    display: block;
     margin: 0 auto;
-    padding: 15px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
+  
 
   .workshopmenu {
     background-color: rgb(100, 100, 226);
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 15px;
+    text-align: center;
     width: 50%;
+    padding: 30px;
     height: 50%;
+    display: block;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    
   }
 
   @media (max-width: 768px) {
     .drinksmenu, .workshopmenu {
-      width: 90%;
       flex-direction: column;
     }
   }
 
-  .drinksmenu:hover , .workshopmenu:hover  {
+  .drinksmenu:hover   {
     transform: scale(1.1);
+    background-color:rgb(219, 3, 3);
   } 
+
+  .workshopmenu:hover{
+    transform: scale(1.1);
+    background-color: rgb(20, 20, 223);
+    
+  }
 
   .drinksmenu:active  {
     transform: scale(1.1);
-    background-color:rgb(188, 38, 38);
+    
     
   }
 
   .workshopmenu:active {
     transform: scale(1.1);
-    background-color: rgb(70, 70, 222);
+    background-color: rgb(20, 20, 223);
   }
 
   .drinksmenu:active, .workshopmenu:active {
@@ -190,8 +201,9 @@ ul li {
   }
 
   .hots {
-    width: 50%;
+    text-align: center;
     background: linear-gradient(to bottom, #3b2f2f, #5b4033, #7a4e3a, #a56a4d);
+    width: 50%;
     padding: 10px;
     height: 50%;
     display: block;
@@ -200,15 +212,16 @@ ul li {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+
   }
 
   .colds {
+    text-align: center;
     width: 50%;
     background: linear-gradient(to bottom, #fffde1, #fdf6b2, #fce97b, #fbd74b, #ffd60a);
     padding: 10px;
     height: 50%;
     display: block;
-    padding: 10px;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 10px;
@@ -217,6 +230,7 @@ ul li {
   }
 
   .hotcoffees {
+    text-align: center;
     width: 50%;
     background: linear-gradient(to bottom, #3b2f2f, #5b4033, #8b5e3c, #cfa276, #f1e0c5);
     padding: 10px;
@@ -231,6 +245,7 @@ ul li {
   }
 
   .coldcoffees {
+    text-align: center;
     width: 50%;
     background: linear-gradient(to bottom, #d8c3a5, #c0a98f, #a68c75, #86715d, #665544);
     padding: 10px;
@@ -245,6 +260,7 @@ ul li {
   }
 
   .teas {
+    text-align: center;
     width: 50%;
     background: linear-gradient(to bottom, #702919, #8b3a25, #a54a2a, #c35d35, #e07a4b);
     padding: 10px;
@@ -259,6 +275,7 @@ ul li {
   }
 
   .matcha {
+    text-align: center;
     width: 50%;
     background: linear-gradient( green, rgb(211, 211, 156));
     padding: 10px;
@@ -273,6 +290,7 @@ ul li {
   }
 
   .cake {
+    text-align: center;
     width: 50%;
     background: linear-gradient(to bottom, #fff0f5, #ffe4e1, #ffd8b1, #fff5cc);
     padding: 10px;
@@ -287,8 +305,9 @@ ul li {
   }
 
   .bowl {
-    width: 50%;
+    text-align: center;
     background: linear-gradient(to bottom, #fdf6ec, #f9e5d8, #f4d0c0, #e8a88f, #d67c6e);
+    width: 50%;
     padding: 10px;
     height: 50%;
     display: block;
@@ -297,6 +316,7 @@ ul li {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+
 
 
   }
