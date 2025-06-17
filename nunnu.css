@@ -46,7 +46,8 @@ a:active{
 
 ul, ul li {
     color: #f8f8c8;
-    font-family: "Playfair Display", serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     font-size: 1.3em;
 }
 
