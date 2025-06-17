@@ -1,6 +1,6 @@
 body {
     background:
-    linear-gradient(rgba(31,46,23,1), rgba(31,46,23,1), rgba(31,107,23,1), rgba(31,107,23,1));
+    linear-gradient(rgb(24, 156, 51), rgba(58, 106, 32, 0.947), rgba(31, 107, 23, 0.69), rgb(16, 105, 6));
     background-repeat: no-repeat;
     background-image: 480px 760px ;
     background-position: center;
@@ -8,14 +8,14 @@ body {
 
 h1{
     color: #f8f8c8;
-    font-family: "Alumni Sans SC", sans-serif;
-    font-size: 60px ;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px ;
     text-align: center;
 }
 
 
 p {
-    font-family: 'WDXL Lubrifont TC', sans-serif;
+   font-family: "Playfair Display", serif;
     color: #f8f8c8;
     font-size: x-large;
  }
@@ -26,11 +26,13 @@ p {
   
   
 a {
-    font-family: 'WDXL Lubrifont TC', sans-serif;
+   display: block;
     color: #f8f8c8;
     font-size: xx-large;
     text-decoration: none;
     text-align: center;
+    margin: 0;
+  
 }
 a:hover {
     color: rgb(255, 255, 255);
@@ -72,11 +74,18 @@ ul li {
 
   }
 
+
+
   sub{
     color: darkgoldenrod;
     font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-shadow: #0D1B2A 2px 2px 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
     font-size: 1.2em;
-    margin-left: 8px;
+    margin-left: 15px;
   }
 
   button { 
@@ -134,7 +143,19 @@ ul li {
   }
 
   .workshopmenubody {
-    background: linear-gradient(rgba(31,46,23,1), rgba(31,46,23,1), rgba(31,107,23,1), rgba(31,46,23,1), rgba(31,107,23,1), rgba(31,46,23,1), rgba(31,107,23,1));
+    background: linear-gradient(rgba(57, 19, 52, 0.857), rgba(38, 30, 60, 0.766), rgba(31,107,23,1), rgba(48, 72, 36, 0.824), rgba(76, 94, 18, 0.808), rgb(120, 59, 59), rgb(107, 23, 23));
+  }
+
+  .drinksdesertsbody {
+    background: linear-gradient(rgba(57, 19, 52, 0.857), rgba(38, 30, 60, 0.766), rgba(31,107,23,1), rgba(48, 72, 36, 0.824), rgba(76, 94, 18, 0.808), rgb(120, 59, 59), rgb(107, 23, 23));
+  }
+
+  .artizanbody{
+    background: linear-gradient(rgba(57, 19, 19, 0.857), rgba(60, 46, 30, 0.766), rgba(60, 75, 24, 0.9), rgba(59, 110, 34, 0.824), rgba(58, 71, 14, 0.808), rgb(121, 74, 74), rgba(146, 16, 16, 0.79));
+  }
+
+  .bowlbody{
+    background: linear-gradient(rgba(94, 43, 87, 0.857), rgba(38, 30, 60, 0.766), rgba(55, 122, 48, 0.768), rgba(75, 93, 48, 0.824), rgba(95, 118, 21, 0.808), rgba(120, 59, 59, 0.799), rgb(107, 23, 23));
   }
   
   .extra {
@@ -145,8 +166,8 @@ ul li {
     background-color: rgb(199, 77, 77);
     text-align: center;
     width: 250px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 0px;
     padding-right: 0px;
     height: 50%;
@@ -157,13 +178,15 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.4s ease-in-out;
   }
-  
+
+
 
   .workshopmenu {
     background-color: rgb(100, 100, 226);
     text-align: center;
     width: 200px;
-    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     height: 50%;
     display: block;
     margin: 0 auto;
