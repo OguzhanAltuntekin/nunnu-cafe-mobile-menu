@@ -145,8 +145,8 @@ ul li {
     background-color: rgb(199, 77, 77);
     text-align: center;
     width: 250px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 0px;
     padding-right: 0px;
     height: 50%;
@@ -163,7 +163,7 @@ ul li {
     background-color: rgb(100, 100, 226);
     text-align: center;
     width: 200px;
-    padding: 30px;
+    padding: 15px;
     height: 50%;
     display: block;
     margin: 0 auto;
