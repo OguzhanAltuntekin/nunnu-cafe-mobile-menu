@@ -1,6 +1,6 @@
 body {
     background:
-    linear-gradient(rgb(24, 156, 51), rgba(58, 106, 32, 0.947), rgba(31, 107, 23, 0.69), rgb(16, 105, 6));
+    linear-gradient(rgb(20, 110, 38), rgba(45, 90, 20, 0.947), rgba(31, 107, 23, 0.844), rgb(15, 96, 6));
     background-repeat: no-repeat;
     background-image: 480px 760px ;
     background-position: center;
@@ -46,8 +46,8 @@ a:active{
 
 ul, ul li {
     color: #f8f8c8;
-    font-family: 'WDXL Lubrifont TC', sans-serif ;
-    font-size: 1.2em;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3em;
 }
 
 ul {
@@ -119,7 +119,10 @@ ul li {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;}
+    transition: transform 0.3s ease;
+    margin-left: 15px;
+  }
+    
 
     .workshopmenupics-p {
     width: 30%;
@@ -359,4 +362,18 @@ ul li {
     margin: 0;
     object-fit: cover;
     border-radius: 10px;;
+  }
+
+  span {
+    font-family: 'Pacifico', cursive;
+    font: 1.2em;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 10px;
+    display:inline-block;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 0.8em;
+    color: darkgoldenrod;
+    text-shadow: #0D1B2A 2px 2px 4px; 
   }
